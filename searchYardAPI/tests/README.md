@@ -1,0 +1,1 @@
+## Please note that these quaries were done while both backend and frontend were hosted locally
