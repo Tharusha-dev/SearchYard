@@ -22,7 +22,7 @@
     responseGot = false;
 
 
-    const response = await fetch(`http://localhost:8080/search?q=${query}`);
+    const response = await fetch(`https://api.searchyard.xyz/search?q=${query}`);
     if (response.ok) {
       const jsonData = await response.json();
       fdata = jsonData;
@@ -34,25 +34,6 @@
       
           isQuotedSearch = true
       }
-      
-      // try {
-      //   countsJson = jsonData.Counts
-      //   console.log(countsJson)
-        
-      // } catch (error) {
-      //   console.log(error)
-
-      //   if (countsJson = null) {
-         
-
-      //   }else {
-          
-          
-      //   }
-        
-      // }
-      
-
       
 
       if (videosJson == null ){
@@ -70,7 +51,7 @@
         diloguesMap : video.TimeDialogues2
       }));
 
-      // console.log(countsJson)
+   
 
       }
     
@@ -124,8 +105,7 @@
   {#each videos as video}
       
     <VideoCard video={video} query={query} />
-    <!-- <p>{video.id}</p>
-  <img src="https://img.youtube.com/vi/{video.id}/0.jpg" alt=""> -->
+
   {/each}
 
   {:else}

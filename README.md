@@ -2,6 +2,10 @@
 
 **A fan-made search engine for The Yard podcast.** 
 
+
+## Support the project
+
+[<img src="https://i.imgur.com/D1qW3MY.png">](https://buymeacoffee.com/tharushaj)
 ##  Frontend
 Written in [Svelte](https://svelte.dev/).
  

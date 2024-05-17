@@ -3,6 +3,11 @@
   import Footer from "./lib/footer.svelte";
 </script>
 
+<svelte:head>
+	<title>Search Yard</title>
+	<meta name="description" content="A search engine for The Yard podcast. Find related videos as well as time stamps for a search" />
+</svelte:head>
+
 <main>
   <h1>Search Yard</h1>
 
@@ -13,7 +18,7 @@
 
 <div class="github-logo">
   <a
-  href="https://github.com/Tharusha-dev/WANsearch"
+  href="https://github.com/Tharusha-dev/searchYard"
   target="_blank"
   aria-label="github"
 >

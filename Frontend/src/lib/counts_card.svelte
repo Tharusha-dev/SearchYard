@@ -13,7 +13,9 @@
         <span>
             <span id="term">{term}&nbsp;</span>:<span id="count">&nbsp;{count}</span>
         </span>
+        
     {/each}
+    <span id="count-samllprint"><a href="https://github.com/Tharusha-dev/searchYard/blob/main/searchYardAPI/stop_words.txt">These</a> words, and words cencensored by YouTube substitles are missing from the counts and/or search</span>
 </div>
 
 <style>
@@ -33,4 +35,13 @@
         color: white;
         font-weight: bold;
     }
+
+    #count-samllprint{
+        font-size: 0.75em;
+    }
+
+    #count-samllprint a{
+       color: white
+    }
+
 </style>

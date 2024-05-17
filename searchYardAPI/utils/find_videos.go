@@ -678,7 +678,7 @@ func findClosestFromTwoSlicec(list1 []int, list2 []int) int {
 	}
 
 	startNum := list1[0]
-	fmt.Println(list1, list2)
+	// fmt.Println(list1, list2)
 
 	for _, n2 := range list2 {
 
